@@ -1,0 +1,46 @@
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar a:hover{
+    background-color: blue;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: orange;
+    color: black;
+}
+
+p, h1, h2, label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo {
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+.tutorial {
+    width: 800px;
+    height: 450px;
+}
+
+#coming-soon{
+    color: red;
+}
