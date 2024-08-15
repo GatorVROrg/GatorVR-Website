@@ -1,0 +1,10 @@
+.logoContainer {
+    display: grid;
+    align-items: center;
+    margin: auto
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
