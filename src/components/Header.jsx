@@ -8,15 +8,15 @@ export default function Header() {
                 <img className="logo" src="GatorVR_Icon.png" alt="GatorVR Logo" />
                 <span className="logoText">Gator VR</span>
             </div>
-            <div>
-            <ul>
-                <li><Link to='/'>Home</Link></li>
-                <li><Link to='/projects'>Projects</Link></li>
-                <li><Link to='/events'>Events</Link></li>
-                <li><Link to='/tutorials'>Tutorials</Link></li>
-                <li><Link to='/contact'>Contact Us</Link></li>
-            </ul>
-        </div>
+            <div className="navbar">
+                <ul>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/projects'>Projects</Link></li>
+                    <li><Link to='/events'>Events</Link></li>
+                    <li><Link to='/tutorials'>Tutorials</Link></li>
+                    <li><Link to='/contact'>Contact Us</Link></li>
+                </ul>
+            </div>
         </>
     )
 }
