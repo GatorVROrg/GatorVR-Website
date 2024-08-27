@@ -1,9 +1,10 @@
 import React from 'react'
+import ImageGallery from './ImageGallery'
 
 export default function Home() {
     return (
         <>
-            <div>Welcome to Gator VR!</div>
+            <ImageGallery />
         </>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import TutorialCard from './TutorialCard'
+import TutorialCard from './TutorialCard' // todo: finish the tutorial cards.
 
 export default function Tutorials() {
     return (
@@ -12,8 +12,6 @@ export default function Tutorials() {
 
             <h1>Tutorial 3 - User Interfaces</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/5y3cyNaMX-Q?si=rEYewVi_kTCewtcT" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-
-            <TutorialCard />
         </>
     )
 }
